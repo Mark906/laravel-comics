@@ -394,6 +394,11 @@ template {
   text-transform: uppercase;
 }
 
+.jumbotron {
+  padding: 200px 0;
+  background-image: url("/images/jumbotron.jpg");
+}
+
 header ul {
   margin: 0;
   padding: 0;
