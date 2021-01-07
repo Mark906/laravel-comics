@@ -10,6 +10,7 @@ header {
 
         a {
             text-decoration: none;
+            font-weight: bold;
         }
     }
     .header-top {
@@ -26,8 +27,6 @@ header {
                     display: inline-block;
                     color: white;
                     font-size: 12px;
-                    text-transform: uppercase;
-                    font-weight: bold;
                     padding: 5px;
                 }
             }
@@ -35,20 +34,35 @@ header {
     }
 
     .header-bottom {
+        border-bottom: 1px solid lightgrey;
+
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding-top: 10px;
 
-            nav {
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                .main-menu ul li {
-                    line-height: 115px;
-                    padding: 10px;
+            .logo {
+                height: 80px;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            li {
+                height: 140px;
+                a {
+                    color: darkgrey;
+                    display: inline-block;
+                    line-height: 135px;
+                    padding: 0 10px;
+                    margin: 0 5px;
+
+                    &.active, &:hover {
+                        color: $main_color;
+                        border-bottom: 5px solid $main_color;
+                    }
                 }
             }
         }

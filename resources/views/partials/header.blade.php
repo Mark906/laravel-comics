@@ -16,48 +16,46 @@
     <div class="header-bottom">
         <div class="container">
             <div class="navbar">
-                <nav>
-                    <div class="logo">
-                        <img src="{{ asset('images/dc-logo.png') }}" alt="">
-                    </div>
-                    <div class="main-menu">
-                        <ul>
-                            <li>
-                                <a class="uppercase" href="#">Characters</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Comics</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Movies</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Tv</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Games</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Collectibles</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Video</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Fans</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">New</a>
-                            </li>
-                            <li>
-                                <a class="uppercase" href="#">Shop</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="search">
+                <div class="logo">
+                    <img src="{{ asset('images/dc-logo.png') }}" alt="">
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a class="uppercase" href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Comics</a>
+                        </li>
+                        <li class="active">
+                            <a class="uppercase " href="#">Movies</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Tv</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Games</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Collectibles</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Video</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Fans</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">New</a>
+                        </li>
+                        <li>
+                            <a class="uppercase" href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
 
-                    </div>
-                </nav>
+                </div>
             </div>
 
         </div>

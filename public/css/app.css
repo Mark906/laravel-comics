@@ -406,6 +406,7 @@ header ul li {
 
 header ul a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 header .header-top {
@@ -424,27 +425,43 @@ header .header-top ul li a {
   display: inline-block;
   color: white;
   font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
   padding: 5px;
+}
+
+header .header-bottom {
+  border-bottom: 1px solid lightgrey;
 }
 
 header .header-bottom .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-top: 10px;
 }
 
-header .header-bottom .navbar nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+header .header-bottom .navbar .logo {
+  height: 80px;
 }
 
-header .header-bottom .navbar nav .main-menu ul li {
-  line-height: 115px;
-  padding: 10px;
+header .header-bottom .navbar .logo img {
+  height: 100%;
+}
+
+header .header-bottom .navbar li {
+  height: 140px;
+}
+
+header .header-bottom .navbar li a {
+  color: darkgrey;
+  display: inline-block;
+  line-height: 135px;
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+header .header-bottom .navbar li a.active,
+header .header-bottom .navbar li a:hover {
+  color: #0282F9;
+  border-bottom: 5px solid #0282F9;
 }
 
