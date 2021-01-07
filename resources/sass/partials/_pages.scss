@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        .comics {
+            width: 270px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .img img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .title {
+                text-align: center;
+            }
+        }
+}

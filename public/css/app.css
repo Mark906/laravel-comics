@@ -470,3 +470,27 @@ header .header-bottom .navbar li a:hover {
   border-bottom: 5px solid #0282F9;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container .comics {
+  width: 270px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container .comics .img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-container .comics .title {
+  text-align: center;
+}
+
