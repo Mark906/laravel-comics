@@ -1,0 +1,14 @@
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
